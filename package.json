@@ -1,0 +1,18 @@
+{
+  "name": "elm-parcel-app1",
+  "version": "1.0.0",
+  "description": "elm app using parcel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Stephen Bannasch",
+  "license": "ISC",
+  "dependencies": {
+    "parcel": "^1.12.3"
+  },
+  "devDependencies": {
+    "elm-hot": "^1.0.1",
+    "node-elm-compiler": "^5.0.3"
+  }
+}
