@@ -1,0 +1,99 @@
+html {
+}
+
+* {
+  font-family: 'Source Sans Pro', 'Trebuchet MS', 'Lucida Grande', 'Bitstream Vera Sans', 'Helvetica Neue', sans-serif;
+  font-size:24px;
+}
+
+body {
+  font-family: 'Source Sans Pro', 'Trebuchet MS', 'Lucida Grande', 'Bitstream Vera Sans', 'Helvetica Neue', sans-serif;
+  margin: 0;
+  color: #293c4b;
+  font-size:24px;
+}
+
+h1 {
+  font-size: 1.4em;
+}
+
+header {
+  font-size: 1.1em;
+  margin: 0.5em 0em;
+}
+
+div.header-details-right {
+  display: flex;
+  margin-right: 0.5em;
+  justify-content: flex-end;
+  a {
+    font-size: 0.7em
+  }
+}
+
+img.icon {
+  margin: 20px 0;
+  max-height: 144px;
+}
+
+div.upper-left {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+}
+
+div.upper-right {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+}
+
+div.lower-left {
+  position: absolute;
+  bottom: 10px;
+  left: 20px;
+}
+
+div.lower-center {
+  position: absolute;
+  width: 128px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  bottom: 10px;
+}
+
+div.lower-right {
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
+}
+
+input {
+  width: 24em;
+  font-size: 1em;
+  padding: 0.2em 0.4em;
+}
+
+input[type='checkbox'] {
+  width: 0.8em;
+  height: 0.8em;
+  margin-right: 0.75em;
+}
+
+ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+li {
+  margin: 0.5em 0em;
+}
+
+.flex-grid {
+  display: flex;
+}
+.col {
+  flex: 1;
+}
