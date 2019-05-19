@@ -4,7 +4,10 @@
   "description": "elm app using parcel",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -rf build && npx parcel build src/index.html --out-dir build --public-url ./",
+    "deploy": "gh-pages -d build",
+    "build-deploy": "npm run build && npm run deploy"
   },
   "author": "Stephen Bannasch",
   "license": "ISC",

@@ -3,6 +3,18 @@
 
 Create a new Elm App using [parcel](https://parceljs.org/).
 
+Development environment:
+
+```
+$ nvm --version
+0.34.0
+$ nvm use
+Found '/Users/stephen/dev/elm/sandbox/elm-app-built-with-parcel/.nvmrc' with version <10.15.3>
+Now using node v10.15.3 (npm v6.4.1)
+$ elm --version
+0.19.0
+
+
 Following: [Building an Elm project with Parcel](https://benpaulhanna.com/building-an-elm-project-with-parcel.html)
 
 ```
