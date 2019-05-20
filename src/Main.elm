@@ -2,8 +2,8 @@ module Main exposing (Model, Msg(..), init, main, update, view)
 
 import Browser
 import Browser.Navigation
-import Html exposing (Html, div, h1, img, p, text)
-import Html.Attributes exposing (class, src)
+import Html exposing (Html, a, div, h1, img, p, text)
+import Html.Attributes exposing (class, href, src, target)
 import Url exposing (Url)
 
 
@@ -51,7 +51,7 @@ type alias Model =
 
 initialModel : Images -> Url.Url -> Browser.Navigation.Key -> Model
 initialModel images url key =
-    { content = "Hello rainy day in Boston"
+    { content = "Hello rainy day in Boston."
     , url = url
     , key = key
     , img = images
@@ -120,7 +120,15 @@ view model =
                 [ h1 [] [ text "Hello Elm App" ]
                 , p [] [ text model.content ]
                 ]
-            , div [ class "col" ] []
+            , div [ class "col" ]
+                [ div [ class "header-details-right" ]
+                    [ a
+                        [ href "https://github.com/stepheneb/elm-app-built-with-parcel"
+                        , target "_blank"
+                        ]
+                        [ text "source code" ]
+                    ]
+                ]
             ]
         ]
     }
